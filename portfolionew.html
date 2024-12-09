@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General Styles */
+
+        header nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header nav li:last-child {
+  margin-right: 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none; 1 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: beige;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold; /* Makes the text bold */
+    font-family: Arial, sans-serif; /* Sets the font to Arial */
+}
+
+header p a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.heading{
+    font-size: xx-large;
+}
+
+/* Profile Photo */
+.profile-photo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 15px auto;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+section {
+    padding: 50px;
+}
+
+#description{
+    padding: 20px 0;
+    background: beige;
+    text-align: center
+}
+
+/* Skills Section */
+#skills {
+    padding: 20px 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2em;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    padding: 5px 0;
+    font-size: 1.2em;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px 0;
+    background: #fff;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#contact {
+  padding: 20px 0;
+  background: beige;
+  text-align: center; /* Center-align content */
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="heading"><font face="algerian" size="25">My Portfolio</font></div><br>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+    <section id="description">
+        <div class="container">
+            <font face="Aharoni" size="20"><b>Anupriya Saxena</b></font>
+            <img src="C:\Users\Anupriya\Desktop\picnew.jpg" class="profile-photo">
+            <section id="about"><font face="Arial" size="10">About Me</font>
+        <div class="description"><i>I am a dedicated Computer Science Engineering Student seeking to develop a solid foundation in software development. I am comitted to exploring the core principles of engineering and expanding my expertise in the field of computer science. I am eager to connect with industry professionals and fellow engineering students to exchange knowledge and collaborate on projects to gain hands-on experience and apply my technical skills in real world scenarios.</i></div></section>
+        </div>
+</section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project 1: Personal Portfolio</h3>
+                    <p>Description: A personal website to showcase skills and projects.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2: Hospital Management System</h3>
+                    <p>Description: An efficient Healthcare Information Management System that streamlines patient data management, improves healthcare services, and enhances overall patient care..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: anupriyasaxena946@gmail.com</p>
+        <p>Phone: 7906XXXXXX</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anupriya-saxena-196899327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Profile</a></p>
+        <p>GitHub: <a href="https://github.com/AnupriyaSaxena28">Profile</a></p>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Anupriya Saxena</p>
+        </div>
+    </footer>
+</body>
+</html>
